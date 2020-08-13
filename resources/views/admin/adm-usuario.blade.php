@@ -11,10 +11,10 @@
     @if($users->isEmpty())
         <section class="row mx-2">
             <div class="col-12">
-                <h3 class="text-center">Parece que ainda não temos nenhum usuário!</h3>
+                <h3 class="text-center">Nenhum usuário foi cadastrado ainda!</h3>
             </div>
         </section>
-    @endif
+    @else
     <div class="table-responsive">
         <table class="table table-bordered table-hover text-center mt-4">
             <thead>
@@ -278,6 +278,7 @@
                         </div>
                     </div>
                     @endforeach
+                    @endif
                 </tbody>
             </table>
             <div class="d-flex justify-content-center mt-4">

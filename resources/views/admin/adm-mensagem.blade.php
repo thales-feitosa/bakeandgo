@@ -8,6 +8,13 @@
 
 <section class="container email-mensagem py-5 mt-5 px-md-0 adm-pag">
     <h2 class="mb-0">Mensagens</h2>
+    @if($messages->isEmpty())
+        <section class="row mx-2">
+            <div class="col-12">
+                <h3 class="text-center">Parece que ainda não temos nenhuma mensagem!</h3>
+            </div>
+        </section>
+    @else
     <div class="table-responsive">
         <table class="table table-bordered table-hover text-center mt-4">
             <thead>
@@ -110,6 +117,7 @@
                     </div>
                 </div>
                 @endforeach
+                @endif
             </tbody>
         </table>
         <div class="d-flex justify-content-center mt-4">

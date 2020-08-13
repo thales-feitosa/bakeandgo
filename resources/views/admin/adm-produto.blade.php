@@ -11,7 +11,6 @@
         <h2 class="col-12 col-md-6 mb-0 px-0">Produtos</h2>
         <a href="#" class="text-dark" data-toggle="modal" data-target="#modalAdd"><p class="col-12 col-md-6 mt-3 mt-md-0 px-0 text-md-right">Adicionar um produto <i class="far fa-plus-circle text-dark"></i></a></p>
     </div>
-
     @if($produtos->isEmpty())
         <section class="row mx-2">
             <div class="col-12">
@@ -257,7 +256,6 @@
                     <h5 class="modal-title">Adicionar produto</h5>
                 </div>
                 <br>
-
                 <form action="/admin/adm-produto" method="POST" enctype="multipart/form-data" class="container">
                     @csrf
                     {{ method_field('POST') }}
@@ -311,13 +309,11 @@
             </div>
         </div>
     </div>
-
     @if(!empty(Request::get('success')))
         <div class="alert alert-success text-center col-md-12">
             {{ Request::get('success') }}
         </div>
     @endif
-
 </section>
 
 @endsection

@@ -145,9 +145,7 @@
                 {{ $categorias->onEachSide(0)->links() }}
             </div>
         </div>
-
-    @endif
-                        
+        @endif        
         <!-- Modal - Adicione uma categoria -->
         <div class="modal fade" id="modalAdd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -172,12 +170,11 @@
                 </div>
             </div>
         </div>
-        
-    @if(!empty(Request::get('success')))
-        <div class="alert alert-success text-center col-md-12">
-            {{ Request::get('success') }}
-        </div>
-    @endif
-</section>
+        @if(!empty(Request::get('success')))
+            <div class="alert alert-success text-center col-md-12">
+                {{ Request::get('success') }}
+            </div>
+        @endif
+    </section>
 
 @endsection
