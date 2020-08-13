@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
 
-class PaginaProdutosController extends Controller
+class MenuController extends Controller
 {
     public function index() {
         $match = DB::table('categorias')
@@ -17,7 +17,7 @@ class PaginaProdutosController extends Controller
         $categorias = Categoria::all();
         $produtos = Produto::all();
         
-        return view('/produtos')->with('produtos', $produtos)->with('categorias', $categorias)->with('match', $match);
+        return view('menu')->with('produtos', $produtos)->with('categorias', $categorias)->with('match', $match);
         
     }
 }

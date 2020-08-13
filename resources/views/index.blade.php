@@ -10,7 +10,7 @@
   <div class="container d-flex h-100 align-items-center">
     <div class="mx-auto text-center">
       <h1 class="mx-auto my-0" data-aos="fade-up" data-aos-duration="1500">Baked & fresh</h1>
-      <h2 class="mx-auto mt-2 mb-5" data-aos="fade-up" data-aos-duration="1500">Do pão de fermentação natural ao pão francês, não importa a hora, nós iremos até você.</h2>
+      <h2 class="mx-auto mt-2 mb-5" data-aos="fade-up" data-aos-duration="1500">Do pão de fermentação natural ao pão integral, não importa a hora, nós iremos até você.</h2>
     </div>
   </div>
 </section>
@@ -23,9 +23,9 @@
   <div class="row" data-aos="fade-up" data-aos-duration="1500">
     <div class="col-lg-6 w-100 my-auto text-center text-lg-right">
       <h2>Pão Italiano</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-      <a href="/cesta-compras">
-        <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a>
+      <p></p>
+      {{-- <a href="/cesta-compras">
+        <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a> --}}
     </div>
     <div class="col-lg-5 col-md mx-auto">
       <img class="img-fluid" src="{{ asset("img/03_bakeandgo.jpg") }}" alt="Conheça nosso pão artesanal, feito com fermetação natural.">
@@ -33,17 +33,16 @@
   </div>
   <div class="row" data-aos="fade-up" data-aos-duration="1500">
     <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
-      <h2>Bolo de Chocolate com frutas vermelhas</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-      <a href="/cesta-compras">
-        <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a>
+      <h2>Pão Francês Rústico</h2>
+      <p></p>
+      {{-- <a href="/cesta-compras">
+        <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a> --}}
       </div>
       <div class="col-lg-5 col-md mx-auto order-lg-first">
         <img class="img-fluid" src="{{ asset("img/05_bakeandgo.jpg") }}" alt="Conheça nosso bolo de chocolate com frutas vermelhas.">
       </div>
     </div>
   </section>    
-  <hr class="accent my-5">
   <!-- Menu -->
   <section class="menu-produtos">
     <div class="container">
@@ -58,7 +57,7 @@
               <h3 class="text-truncate sliding-u-l-r-l">Pão Italiano</h3>
               <h4>R$12</h4>
             </div>
-            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
+            <p class="small"></p>
             <div class="options">
               <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
               <select class="qtd" name="qtd">
@@ -83,7 +82,7 @@
               <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
               <h4>R$8</h4>
             </div>
-            <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
+            <p class="small"></p>
             <div class="options">
               <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
               <select class="qtd" name="qtd">
@@ -105,10 +104,10 @@
           </div>
           <div class="card card-body">
             <div class="d-flex justify-content-between align-items-start">
-              <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
+              <h3 class="text-truncate sliding-u-l-r-l">Ciabatta</h3>
               <h4>R$14</h4>
             </div>
-            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
+            <p class="small"></p>
             <div class="options">
               <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
               <select class="qtd" name="qtd">
@@ -133,7 +132,7 @@
               <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
               <h4>R$10</h4>
             </div>
-            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
+            <p class="small"></p>
             <div class="options">
               <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
               <select class="qtd" name="qtd">
@@ -156,7 +155,7 @@
         </div>
       </div>
       <div class="col-12 mt-5 mb-3 text-center">
-        <a href="/produtos" class="btn btn-primary mb-5">VER MENU</a>
+        <a href="/menu" class="btn btn-primary mb-5 text-uppercase">Ver menu</a>
       </div>
     </div>
   </section>

@@ -38,6 +38,10 @@ nav.navbar {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
   z-index: 1100;
 }
+.navbar-light .navbar-toggler {
+  color: #000000!important;
+  border-color: transparent;
+}
 
 .dropdown-toggle::after {
   display: inline-block;
@@ -319,6 +323,15 @@ i.fa-eye:hover::before {
 
 .menuProdutos span, label, select {
   font-size: 1em;
+}
+
+.card-deck h4 {
+  font-size: 0.9em;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 #section-counter {

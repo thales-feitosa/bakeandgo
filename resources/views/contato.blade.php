@@ -14,7 +14,7 @@
             <form action="/contato" method="post" class="container-fluid px-0">
                 <div class="form-cadastro">
                     <div class="card card-body mensagem mr-md-2">
-                        <h3 class="text-center mb-4 mx-auto sliding-u-l-r-l">Fale conosco</h3>
+                        <h3 class="text-center mb-4 mx-auto sliding-u-l-r-l">Envie uma mensagem</h3>
                         <fieldset>
                             <form action="/contato" method="POST" id="formContato">
                             @csrf
@@ -41,7 +41,7 @@
         <!-- MAPA -->
         <section class="contato col-12 col-md-6 mx-auto mt-3 mt-md-0 p-0">
             <div class="card card-body mapa ml-md-2">
-                <h3 class="text-center mb-2 mx-auto sliding-u-l-r-l">Onde estamos</h3>
+                <h3 class="text-center mb-2 mx-auto sliding-u-l-r-l">Delivery</h3>
                 <p class="text-center mb-0">Av. Dr. Cardoso de Melo, 90</p>
                 <p class="text-center mb-0">Vila Olímpia, São Paulo</p>
                 <p class="text-center">Telefone:<a href="tel:+55113500-9839" class="ml-1" title="Estamos prontos para te atender. Entre em contato pelo telefone.">(11) 3500 9839</a></p>

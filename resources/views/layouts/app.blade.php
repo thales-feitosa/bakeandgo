@@ -113,7 +113,7 @@
                             <a class="nav-link" href="/quem-somos">Quem somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/produtos">Menu</a>
+                            <a class="nav-link" href="/menu">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contato">Contato</a>

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/produtos', 'PaginaProdutos@index');
+Route::get('/menu', 'MenuController@index');
 
 Route::get('/erro', function() {
     return view('erro');
@@ -96,6 +96,11 @@ Route::get('/admin/adm-usuario', 'UsersController@listAllUsers')->name('adm-usua
 // Route::put('/user/editar-usuario/{id}', 'UsersController@updateUser');
 Route::delete('/admin/adm-usuario/{id}', 'UsersController@deleteUser');
 
+// HISTORICO DE PEDIDOS
+Route::get('/admin/adm-historico-pedidos', function () {
+    return view('admin/adm-historico-pedidos');
+});
+
 
 /*
 |--------------------------------------------------------------------------
@@ -131,8 +136,3 @@ Route::get('/admin/adm-mensagem', 'MensagemController@listMessage')->name('mensa
 Route::get('/contato', 'MensagemController@pagContato');
 Route::post('/contato', 'MensagemController@sendMessage')->name('contato');
 Route::delete('/admin/removeMessage/{id}', 'MensagemController@deleteMessage');
-
-// HISTORICO DE PEDIDOS
-Route::get('/admin/adm-historico-pedidos', function () {
-    return view('admin/adm-historico-pedidos');
-});

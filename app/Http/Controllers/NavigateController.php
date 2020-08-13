@@ -18,14 +18,14 @@ class NavigateController extends Controller
     }
 
     // LOGIN DO USUÁRIO
-    public function loginDirect(){
+    public function loginDirect() {
         if(Auth::check()===true){
             return redirect()->route('user.minha-conta');
         }
         return view('user.login');
     }
 
-    public function login(Request $request){
+    public function login(Request $request) {
 
         $credentials = [
             'email'=> $request->email,
@@ -54,7 +54,7 @@ class NavigateController extends Controller
         }
     }
 
-    public function meusPedidos(){
+    public function meusPedidos() {
         if(Auth::check()===true) {
             $users = User::all();
             return view('user.meus-pedidos')->with('users', $users);
