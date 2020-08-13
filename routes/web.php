@@ -22,8 +22,8 @@ Route::get('/erro', function() {
     return view('erro');
 });
 
-Route::get('/quem-somos', function() {
-    return view('quem-somos');
+Route::get('/a-padaria', function() {
+    return view('a-padaria');
 });
 
 /*

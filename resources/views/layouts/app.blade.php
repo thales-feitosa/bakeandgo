@@ -107,10 +107,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav text-center ml-md-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/quem-somos">Quem somos</a>
+                            <a class="nav-link" href="/a-padaria">A Padaria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/menu">Menu</a>
@@ -207,14 +204,11 @@
                         <div class="col-12 mb-4 text-center footer-link">
                             <!-- REDIRECIONAMENTOS -->
                             <ul>
-                                <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase home-footer">
-                                    <a href="/" title="Página Inicial">Home</a>
-                                </li>
                                 <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase qs-footer">
-                                    <a href="/quem-somos" title="Conheça nossa história">Quem somos</a>
+                                    <a href="/a-padaria" title="Conheça nossa história">A Padaria</a>
                                 </li>
                                 <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                                    <a href="/produtos" title="Conheça nossos produtos">Menu</a>
+                                    <a href="/menu" title="Conheça nossos produtos">Menu</a>
                                 </li>
                                 <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
                                     <a href="/contato" title="Entre em contato">Contato</a>

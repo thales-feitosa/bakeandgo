@@ -107,10 +107,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav text-center ml-md-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/quem-somos">Quem somos</a>
+                            <a class="nav-link" href="/a-padaria">A Padaria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/menu">Menu</a>
