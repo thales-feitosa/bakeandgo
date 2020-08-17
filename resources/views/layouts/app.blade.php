@@ -233,25 +233,24 @@
                         <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between px-1">
                             <!-- INFORMAÇÕES LEGAIS -->
                             <div class="d-inline text-center mr-sm-2 text-white">
-                                &copy; 2020 Bake & Go
+                                &copy; 2020 Bake & Go, a sua padaria online
                             </div>
-                            <div class="d-inline text-center ml-sm-2 text-white footer-link">
-                                <a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#politicasPriv">Políticas de Privacidade</a> | <a href="#" title="Termos de Uso" data-toggle="modal" data-target="#termosDeUso">Termos de Uso</a>
+                            <div class="d-inline text-center ml-sm-2 text-white footer-link text-uppercase">
+                                <a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#delivery">Delivery</a> | <a href="#" title="Termos de Uso" data-toggle="modal" data-target="#termosDeUso">Termos de Uso</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </footer>
             <!-- MODAL DE POLITICA DE PRIVACIDADE -->
-            <div class="modal fade" id="politicasPriv" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="delivery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-info-leg">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Políticas de Privacidade</h5>
+                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Delivery</h5>
                 </div>
                 <div class="modal-body text-dark">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris neque, vehicula et finibus a, euismod volutpat est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi et eros ante. Suspendisse consequat luctus libero et sollicitudin. Aenean tempor accumsan mollis. Duis lacinia, magna non fermentum aliquam, velit felis gravida urna, eget semper elit odio at sem. Vestibulum ac convallis orci, ultricies suscipit orci. Nam lobortis in ligula ac pellentesque. Cras aliquam tempor diam, a feugiat sapien porttitor sed. Curabitur ut tortor accumsan, aliquam arcu nec, finibus tellus. Vivamus blandit ornare odio molestie pulvinar. Sed non purus nulla. Phasellus in odio molestie, molestie ipsum a, feugiat massa.</P>
-                <p>Vivamus volutpat nulla vel felis imperdiet laoreet. Fusce vel suscipit sem. Cras facilisis vitae diam eu mollis. Curabitur non pretium quam. Curabitur suscipit rutrum risus eu vulputate. Mauris ultrices bibendum est, at rhoncus nunc vulputate eu. Sed consectetur, velit vel scelerisque accumsan, eros metus feugiat quam, nec pellentesque ipsum nisi eu mi. Aenean gravida neque id velit sodales dignissim. Ut imperdiet mattis neque vel consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eu nisi lorem. Quisque ut blandit lectus. Phasellus magna neque, dignissim eget urna in, feugiat viverra dolor. Sed luctus non dui sit.</P>
+                <p>Formas de pagamento: cartões de crédito, débito, Alelo, Sodexo, VR e ticket.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Entendi</button>
@@ -267,8 +266,7 @@
                     <h5 class="modal-title text-dark" id="staticBackdropLabel">Termos de uso</h5>
                 </div>
                 <div class="modal-body text-dark">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris neque, vehicula et finibus a, euismod volutpat est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi et eros ante. Suspendisse consequat luctus libero et sollicitudin. Aenean tempor accumsan mollis. Duis lacinia, magna non fermentum aliquam, velit felis gravida urna, eget semper elit odio at sem. Vestibulum ac convallis orci, ultricies suscipit orci. Nam lobortis in ligula ac pellentesque. Cras aliquam tempor diam, a feugiat sapien porttitor sed. Curabitur ut tortor accumsan, aliquam arcu nec, finibus tellus. Vivamus blandit ornare odio molestie pulvinar. Sed non purus nulla. Phasellus in odio molestie, molestie ipsum a, feugiat massa.</P>
-                <p>Vivamus volu tpat nulla vel felis imperdiet laoreet. Fusce vel suscipit sem. Cras facilisis vitae diam eu mollis. Curabitur non pretium quam. Curabitur suscipit rutrum risus eu vulputate. Mauris ultrices bibendum est, at rhoncus nunc vulputate eu. Sed consectetur, velit vel scelerisque accumsan, eros metus feugiat quam, nec pellentesque ipsum nisi eu mi. Aenean gravida neque id velit sodales dignissim. Ut imperdiet mattis neque vel consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eu nisi lorem. Quisque ut blandit lectus. Phasellus magna neque, dignissim eget urna in, feugiat viverra dolor. Sed luctus non dui sit.</P>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris neque, vehicula et finibus a, euismod volutpat est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi et eros ante. Suspendisse consequat luctus libero et sollicitudin. Aenean tempor accumsan mollis. Duis lacinia, magna non fermentum aliquam, velit felis gravida urna, eget semper elit odio at sem. Vestibulum ac convallis orci, ultricies suscipit orci. Nam lobortis in ligula ac pellentesque. Cras aliquam tempor diam, a feugiat sapien porttitor sed. Curabitur ut tortor accumsan, aliquam arcu nec, finibus tellus. Vivamus blandit ornare odio molestie pulvinar. Sed non purus nulla. Phasellus in odio molestie, molestie ipsum a, feugiat massa.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Entendi</button>

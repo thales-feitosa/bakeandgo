@@ -198,11 +198,10 @@
   <section class="catAtendimento">
     <div class="row py-4 mx-0 mx-md-5" data-aos="fade-up" data-aos-duration="1500">
       <div class="col-lg-6 w-100 my-auto mb-4 text-lg-left">
-        <h3>Das nossas mão para sua mesa!</h3>          
         <h4>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></h4>
         <h4 class="mt-5 mb-2">Atendimento e delivery</h4>
-        <p class="mb-0">Segunda — Sexta, das 9h às 17h</p>
-        <p class="mb-5">Sábado — Domingo, das 10h às 16h</p>    
+        <p class="mb-0">Segunda — Sábado, das 9h às 16h</p>
+        <p class="mb-5">Domingo — Feriado, fechado</p> 
       </div>                 
       <div class="col-lg-6 order-lg-first">
         <img class="img-fluid" src="{{ asset("img/07_bakeandgo.jpg") }}" alt="Faça seu pedido também pelo WhatsApp.">

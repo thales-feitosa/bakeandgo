@@ -325,13 +325,29 @@ i.fa-eye:hover::before {
   font-size: 1em;
 }
 
-.card-deck h4 {
-  font-size: 0.9em;
-}
-
 .card-img, .card-img-top {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+}
+
+.card-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0;
+}
+
+.card-body p {
+  font-size: 0.9em;
+  word-wrap: break-word;
+}
+.card-body h4 {
+  font-size: 0.9em;
 }
 
 #section-counter {
