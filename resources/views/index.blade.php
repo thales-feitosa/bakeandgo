@@ -58,24 +58,9 @@
               <h4>R$12</h4>
             </div>
             <p class="small"></p>
-            <div class="options">
-              <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
-              <select class="qtd" name="qtd">
-                <option selected value=1>1</option>
-                <option value=2>2</option>
-                <option value=3>3</option>
-                <option value=4>4</option>
-                <option value=5>5</option>
-                <option value=6>6</option>
-                <option value=7>7</option>
-                <option value=8>8</option>
-                <option value=9>9</option>
-                <option value=10>10</option>
-              </select>
-              <span class="float-right">
-                <a href="/cesta-compras" class="btn btn-primary float-right">Add a Cesta</a>
+              <span class="">
+                <a href="/cesta-compras" class="btn btn-primary">Add a Cesta</a>
               </span>
-            </div>  
           </div>
           <div class="card card-body">
             <div class="d-flex justify-content-between align-items-start">
@@ -83,24 +68,9 @@
               <h4>R$8</h4>
             </div>
             <p class="small"></p>
-            <div class="options">
-              <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
-              <select class="qtd" name="qtd">
-                <option selected value=1>1</option>
-                <option value=2>2</option>
-                <option value=3>3</option>
-                <option value=4>4</option>
-                <option value=5>5</option>
-                <option value=6>6</option>
-                <option value=7>7</option>
-                <option value=8>8</option>
-                <option value=9>9</option>
-                <option value=10>10</option>
-              </select>
-              <span class="float-right">
-                <a href="/cesta-compras" class="btn btn-primary float-right">Add a Cesta</a>
+              <span class="">
+                <a href="/cesta-compras" class="btn btn-primary">Add a Cesta</a>
               </span>
-            </div>
           </div>
           <div class="card card-body">
             <div class="d-flex justify-content-between align-items-start">
@@ -108,24 +78,9 @@
               <h4>R$14</h4>
             </div>
             <p class="small"></p>
-            <div class="options">
-              <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
-              <select class="qtd" name="qtd">
-                <option selected value=1>1</option>
-                <option value=2>2</option>
-                <option value=3>3</option>
-                <option value=4>4</option>
-                <option value=5>5</option>
-                <option value=6>6</option>
-                <option value=7>7</option>
-                <option value=8>8</option>
-                <option value=9>9</option>
-                <option value=10>10</option>
-              </select>
-              <span class="float-right">
-                <a href="/cesta-compras" class="btn btn-primary float-right">Add a Cesta</a>
+              <span class="">
+                <a href="/cesta-compras" class="btn btn-primary">Add a Cesta</a>
               </span>
-            </div>
           </div>
           <div class="card card-body">
             <div class="d-flex justify-content-between align-items-start">
@@ -133,24 +88,9 @@
               <h4>R$10</h4>
             </div>
             <p class="small"></p>
-            <div class="options">
-              <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
-              <select class="qtd" name="qtd">
-                <option selected value=1>1</option>
-                <option value=2>2</option>
-                <option value=3>3</option>
-                <option value=4>4</option>
-                <option value=5>5</option>
-                <option value=6>6</option>
-                <option value=7>7</option>
-                <option value=8>8</option>
-                <option value=9>9</option>
-                <option value=10>10</option>
-              </select>
-              <span class="float-right">
-                <a href="/cesta-compras" class="btn btn-primary float-right">Add a Cesta</a>
+              <span class="">
+                <a href="/cesta-compras" class="btn btn-primary">Add a Cesta</a>
               </span>
-            </div>
           </div>
         </div>
       </div>
