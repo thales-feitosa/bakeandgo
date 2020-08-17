@@ -19,5 +19,7 @@ Bake & Go é um ecommerce de uma padaria que faz parte do projeto integrador fei
 
 1. **[Animate On Scroll Library](http://michalsnik.github.io/aos/)**
 - **Animação Fade Up**
-2. **[Font Awesome](http://fontawesome.com/)**
+2. **[Animate Counter Up on Scroll](https://github.com/ciromattia/jquery.counterup)**
+- **Animação Counter Up**
+3. **[Font Awesome](http://fontawesome.com/)**
 - **Ícones**
