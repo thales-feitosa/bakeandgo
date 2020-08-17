@@ -250,7 +250,11 @@
                     <h5 class="modal-title text-dark" id="staticBackdropLabel">Delivery</h5>
                 </div>
                 <div class="modal-body text-dark">
-                <p>Formas de pagamento: cartões de crédito, débito, Alelo, Sodexo, VR e ticket.</p>
+                    <p>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></p>
+                    <p class="mb-0">Atendimento e delivery</p>
+                    <p class="mb-0">Segunda — Sábado, das 9h às 16h</p>
+                    <p class="mb-0">Domingo — Feriado, fechado</p> 
+                    <p class="mt-4">Formas de pagamento: cartões de crédito, débito, Alelo, Sodexo, VR e ticket.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Entendi</button>

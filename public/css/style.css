@@ -134,12 +134,12 @@ img.logo-header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   border-radius: 0;
 }
 .a-padaria-banner h2 {
   font-size: 2rem;
-  color: #fff;
+  color: #faf8f3;
   margin-top: 55px;
 }
 .a-padaria p {

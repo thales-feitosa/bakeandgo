@@ -22,7 +22,7 @@
   </div>
   <div class="row" data-aos="fade-up" data-aos-duration="1500">
     <div class="col-lg-6 w-100 my-auto text-center text-lg-right">
-      <h2>Pão Italiano</h2>
+      <h2>Pães artesanais</h2>
       <p></p>
       {{-- <a href="/cesta-compras">
         <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a> --}}
@@ -31,18 +31,53 @@
       <img class="img-fluid" src="{{ asset("img/03_bakeandgo.jpg") }}" alt="Conheça nosso pão artesanal, feito com fermetação natural.">
     </div>
   </div>
-  <div class="row" data-aos="fade-up" data-aos-duration="1500">
+  {{-- <div class="row" data-aos="fade-up" data-aos-duration="1500">
     <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
       <h2>Pão Francês Rústico</h2>
       <p></p>
-      {{-- <a href="/cesta-compras">
-        <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a> --}}
+      <a href="/cesta-compras">
+        <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button></a>
       </div>
       <div class="col-lg-5 col-md mx-auto order-lg-first">
         <img class="img-fluid" src="{{ asset("img/05_bakeandgo.jpg") }}" alt="Conheça nosso bolo de chocolate com frutas vermelhas.">
       </div>
-    </div>
+    </div> --}}
   </section>    
+  <!-- Section - Contador -->
+  <section class="counter-section img" id="section-counter">
+    <div class="container">
+      <div class="row justify-content-center py-5 mx-0 mx-md-5">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
+              <div class="block-18 text-center">
+                <div class="text">
+                  <strong class="counter number">2406</strong>
+                  <span class="mt-2">Pães assados este mês</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
+              <div class="block-18 text-center">
+                <div class="text">
+                  <strong class="counter number">1202</strong>
+                  <span class="mt-2">Entregas realizadas</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
+              <div class="block-18 text-center">
+                <div class="text">
+                  <strong class="counter number">442</strong>
+                  <span class="mt-2">Clientes satisfeitos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Menu -->
   <section class="menu-produtos">
     <div class="container">
@@ -99,43 +134,8 @@
       </div>
     </div>
   </section>
-  <!-- Section - Contador -->
-  <section class="counter-section img" id="section-counter">
-    <div class="container">
-      <div class="row justify-content-center py-5 mx-0 mx-md-5">
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
-              <div class="block-18 text-center">
-                <div class="text">
-                  <strong class="counter number">2406</strong>
-                  <span class="mt-2">Pães assados este mês</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
-              <div class="block-18 text-center">
-                <div class="text">
-                  <strong class="counter number">1202</strong>
-                  <span class="mt-2">Entregas realizadas</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
-              <div class="block-18 text-center">
-                <div class="text">
-                  <strong class="counter number">442</strong>
-                  <span class="mt-2">Clientes satisfeitos</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- Section - Atendimento -->
-  <section class="catAtendimento">
+  {{-- <section class="catAtendimento">
     <div class="row py-4 mx-0 mx-md-5" data-aos="fade-up" data-aos-duration="1500">
       <div class="col-lg-6 w-100 my-auto mb-4 text-lg-left">
         <h4>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></h4>
@@ -147,6 +147,6 @@
         <img class="img-fluid" src="{{ asset("img/07_bakeandgo.jpg") }}" alt="Faça seu pedido também pelo WhatsApp.">
       </div>
     </div>
-  </section>
+  </section> --}}
   
 @endsection
