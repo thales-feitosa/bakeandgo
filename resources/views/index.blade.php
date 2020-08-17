@@ -164,11 +164,11 @@
     <div class="container">
       <div class="row justify-content-center py-5 mx-0 mx-md-5">
         <div class="col-md-12">
-          <div class="row" data-aos="fade-up" data-aos-duration="1500">
+          <div class="row">
             <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
               <div class="block-18 text-center">
                 <div class="text">
-                  <strong class="number" data-number="1202">1202</strong>
+                  <strong class="counter number">2406</strong>
                   <span class="mt-2">Pães assados este mês</span>
                 </div>
               </div>
@@ -176,7 +176,7 @@
             <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
               <div class="block-18 text-center">
                 <div class="text">
-                  <strong class="number" data-number="476">476</strong>
+                  <strong class="counter number">1202</strong>
                   <span class="mt-2">Entregas realizadas</span>
                 </div>
               </div>
@@ -184,7 +184,7 @@
             <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
               <div class="block-18 text-center">
                 <div class="text">
-                  <strong class="number" data-number="625">625</strong>
+                  <strong class="counter number">442</strong>
                   <span class="mt-2">Clientes satisfeitos</span>
                 </div>
               </div>

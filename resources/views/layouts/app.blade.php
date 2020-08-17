@@ -26,7 +26,18 @@
     {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    {{-- Counter Up on Scroll --}}
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
 
     <!-- Metatags - SEO -->
     <script type="application/ld+json">
@@ -269,6 +280,10 @@
             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
             <script>AOS.init();</script> 
             <script src="/js/contador.js"></script>
+
+            {{-- Counter Up on Scroll --}}
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+            <script src="/js/jquery.counterup.js"></script>
         </div>
     </body>
 </html>
