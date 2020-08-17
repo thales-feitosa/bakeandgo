@@ -521,7 +521,7 @@ h3, .h3 {
   background-size: cover;
   background-position-x: center;
   color: #fff;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .row-footer h2 {
@@ -582,6 +582,9 @@ img.logo-footer {
 .modal-content {
   background-color: #faf8f3;
 }
+.modal-content p {
+  font-size: 1.3em;
+}
 
 .modal-login {
   display: -webkit-box;
@@ -619,7 +622,6 @@ img.logo-footer {
 .modal-footer a {
   color: #8f793c;
 }
-
 .modal-footer > * {
   margin: 0;
 }

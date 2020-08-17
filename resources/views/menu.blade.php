@@ -15,7 +15,10 @@
 
 @foreach ($categorias as $categoria)
 
-    <div class="col-lg-12 mx-auto mb-3">
+<section id="categoria_{{$categoria->categoria}}">
+    <div class="col-lg-12 mx-auto mb-0">
+        <h2 class="mt-5 mb-0 px-md-3">{{$categoria->categoria}}</h2>
+        <hr>
         <div class="container row row-cols-1 row-cols-md-3 mx-auto">
             @foreach ($produtos as $produto)
 
@@ -33,7 +36,7 @@
                                     @csrf
                                     <input type="hidden" name="id" value={{ $produto->id }}>
                                         <a href="/cesta-compras">
-                                            <button type="submit" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button>
+                                            <button type="submit" class="btn hvr-icon-basket mb-0">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></button>
                                         </a>
                                     </form>
                                 </span>
@@ -44,7 +47,8 @@
                     @endforeach
                 </div>
             </div>      
+            @endforeach
         </section>
-        @endforeach
+    </section>
         
 @endsection
