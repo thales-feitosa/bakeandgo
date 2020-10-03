@@ -18,13 +18,13 @@ class UsersController extends Controller
     public function createUser(Request $request) {
 
         $request->validate([
-            'inputNome' => 'required',
-            'inputCPF' => 'required|min:11',
-            'inputRG' => 'required|min:9',
-            'inputEndereco' => 'required',
-            'inputCEP' => 'required|min:8',
-            'inputCidade' => 'required',
-            'inputUF' => 'required',
+            // 'inputNome' => 'required',
+            // 'inputCPF' => 'required|min:11',
+            // 'inputRG' => 'required|min:9',
+            // 'inputEndereco' => 'required',
+            // 'inputCEP' => 'required|min:8',
+            // 'inputCidade' => 'required',
+            // 'inputUF' => 'required',
             'inputSenha'=> 'required|min:6',
             'inputConfirma'=> 'required|same:inputSenha|min:6'
         ]);

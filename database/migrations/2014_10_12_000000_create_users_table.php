@@ -18,11 +18,11 @@ class CreateUsersTable extends Migration
             $table->string('nome');
             $table->string('cpf')->unique();
             $table->string('rg')->unique();
-            $table->string('email')->unique();
             $table->string('endereco');
             $table->string('cep');
             $table->string('cidade');
             $table->string('uf');
+            $table->string('email')->unique();
             $table->boolean('admin')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

@@ -15,10 +15,9 @@ class CreatePedidosTable extends Migration
     {
         Schema::create('pedidos', function (Blueprint $table) {
             $table->id();
-            //$table->date('created_at'); 
             $table->foreignId("user_id");
             $table->foreign('user_id')->references('id')->on('users');
-            $table->text('carrinho');
+            $table->text('cestacompras');
 
             $table->foreignId("produtos_id");
             $table->foreign('produtos_id')->references('id')->on('produtos');
